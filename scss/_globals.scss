@@ -1,0 +1,28 @@
+/* Globals.scss */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,700|Roboto+Condensed:700);
+
+@mixin body-font{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin body-font-bold{
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+}
+
+@mixin body-font-italic{
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+}
+
+@mixin headline-font{
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700; 
+}
+
